@@ -42,13 +42,13 @@ version = if (project.hasProperty("githubReleaseTag")) {
 // Such as:
 // <libName>.jar will be the name of your build jar
 // <libName>.zip will be the name of your release file
-val libName = "myLibrary"
+val libName = "TermText"
 
 // The group ID of your library, which uniquely identifies your project.
 // It's often written in reverse domain name notation.
 // For example, if your website is "myDomain.com", your group ID would be "com.myDomain".
 // Replace "com.myDomain" with your own domain or organization name.
-group = "com.myDomain"
+group = "org.thoughtlost"
 
 // The location of your sketchbook folder. The sketchbook folder holds your installed
 // libraries, tools, and modes. It is needed if you:
@@ -80,7 +80,7 @@ if(currentOS.isMacOsX) {
         "$docsFolder/Processing"
     }
 } else {
-    sketchbookLocation = "$userHome/sketchbook"
+    sketchbookLocation = "$userHome/workspace/p4sketches"
 }
 // If you need to set the sketchbook location manually, uncomment out the following
 // line and set sketchbookLocation to the correct location
